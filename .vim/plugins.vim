@@ -14,6 +14,14 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'jaredgorski/fogbell.vim'
+Plug 'Matt-Gleich/monovibrant'
+Plug 'jdsimcoe/abstract.vim'
+Plug 'kkga/vim-envy'
+Plug 'casperstorm/sort-hvid.vim'
+Plug 'jdsimcoe/hyper.vim'
+Plug 'blackbirdtheme/vim'
+
+
 " Tree
 Plug 'scrooloose/nerdtree'
 
@@ -27,7 +35,6 @@ Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator'
 
 " autocomplete
-"Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver','coc-ultisnips']
 Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
