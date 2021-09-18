@@ -6,3 +6,7 @@ Vim and bash configs
 ### ***.vim =>  ~./***
 
 ### :PlugInstall then :CocInstall
+:CocInstall coc-eslint
+eslint.showOutputChannel
+
+:CocInstall https://github.com/dsznajder/vscode-es7-javascript-react-snippets

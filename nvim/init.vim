@@ -1,11 +1,10 @@
 set number
 set mouse=a
 set numberwidth=1
-set clipboard=unnamed
+set clipboard=unnamedplus
 syntax on
 set showcmd
 set ruler
-"set cursorline
 set encoding=utf-8
 set showmatch
 set sw=2
@@ -16,7 +15,7 @@ so ~/.vim/plugins.vim
 so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim
 
-colorscheme fogbell
+colorscheme monovibrant
 " Only for fogbell_light theme
 "set highlight CursorLine ctermbg='white'
 
@@ -40,3 +39,10 @@ set smartcase                   " ... unless they contain at least one capital l
 
 "Inser line break under cursor
 nmap <c-cr> i<cr><Esc>
+
+
+" Higlioth yank line copyed
+augroup highlight_yank
+    autocmd!
+    au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=700}
+augroup END

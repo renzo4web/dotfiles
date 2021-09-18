@@ -1,6 +1,7 @@
 {
   "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
+  "snippets.priority": 200,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
