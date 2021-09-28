@@ -10,3 +10,6 @@ Vim and bash configs
 eslint.showOutputChannel
 
 :CocInstall https://github.com/dsznajder/vscode-es7-javascript-react-snippets
+
+sudo pacman -Syu python-pip
+
