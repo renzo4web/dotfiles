@@ -14,4 +14,7 @@ eslint.showOutputChannel
 sudo pacman -Syu python-pip
 python3 -m pip install --user --upgrade pynvim
 
+### To avoid absulote imports
+
+"typescript.preferences.importModuleSpecifier": "relative"
 
