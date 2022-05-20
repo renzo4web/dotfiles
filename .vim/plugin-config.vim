@@ -45,6 +45,18 @@ let g:javascript_plugin_flow = 1
 " kite
 let g:kite_supported_languages = ['javascript', 'python']
 
+" Harpoon
+" TODO: move to maps
+nnoremap <C-m> :lua require("harpoon.mark").add_file()<CR>
+nnoremap <C-e> :lua require("harpoon.ui").toggle_quick_menu()<CR>
+nnoremap <leader>1 :lua require("harpoon.ui").nav_file(1)<CR>
+nnoremap <leader>2 :lua require("harpoon.ui").nav_file(2)<CR>
+nnoremap <leader>3 :lua require("harpoon.ui").nav_file(3)<CR>
+nnoremap <leader>4 :lua require("harpoon.ui").nav_file(4)<CR>
+nnoremap <C-g> :lua require("harpoon.mark").rm_file()<CR>
+nnoremap <leader>tu :lua require("harpoon.term").gotoTerminal(1)<CR>
+
+
 " tmux navigator
 let g:tmux_navigator_no_mappings = 1
 
