@@ -10,6 +10,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'maximbaz/lightline-ale'
 Plug 'itchyny/lightline.vim'
 
+" Harpoon
+Plug 'nvim-lua/plenary.nvim'
+Plug 'ThePrimeagen/harpoon'
+
 " Themes
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
