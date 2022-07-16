@@ -18,3 +18,8 @@ python3 -m pip install --user --upgrade pynvim
 
 "typescript.preferences.importModuleSpecifier": "relative"
 
+### Mac only
+
+- external keyboard(logitech)
+
+https://github.com/neosergio/Latam-Keyboard
